@@ -1,0 +1,27 @@
+{
+  "name": "genmagic",
+  "displayName": "GenMagic",
+  "version": "1.0.0",
+  "description": "Images, video clips, speech and music for your project from 90+ AI media models (Veo, Kling, Nano Banana, GPT Image, FLUX and more) through GenMagic's MCP server, with each model's price shown first.",
+  "author": {
+    "name": "GenMagic",
+    "email": "hello@genmagic.co",
+    "url": "https://genmagic.co"
+  },
+  "homepage": "https://genmagic.co/mcp",
+  "repository": "https://github.com/founden-bot/genmagic-plugin",
+  "license": "MIT",
+  "keywords": [
+    "image generation",
+    "video generation",
+    "text to speech",
+    "music",
+    "assets",
+    "icons",
+    "mcp"
+  ],
+  "documentationUrl": "https://genmagic.co/mcp",
+  "supportUrl": "https://genmagic.co/developers",
+  "privacyPolicyUrl": "https://genmagic.co/legal/privacy",
+  "termsOfServiceUrl": "https://genmagic.co/legal/terms"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "genmagic": {
+      "type": "http",
+      "url": "https://genmagic.co/api/mcp/connect"
+    }
+  }
+}

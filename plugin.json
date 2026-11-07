@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "genmagic",
+  "version": "1.0.0",
+  "description": "Images, video clips, speech and music for your project from 90+ AI media models (Veo, Kling, Nano Banana, GPT Image, FLUX and more) through GenMagic's MCP server, with each model's price shown first.",
+  "author": {
+    "name": "GenMagic",
+    "email": "hello@genmagic.co",
+    "url": "https://genmagic.co"
+  },
+  "homepage": "https://genmagic.co/mcp?utm_source=agent-plugin&utm_medium=plugin",
+  "repository": "https://github.com/founden-bot/genmagic-plugin",
+  "license": "MIT",
+  "keywords": ["image generation", "video generation", "text to speech", "music generation", "ai video", "ai image", "veo", "kling", "flux", "assets", "icons", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GenMagic",
+        "shortDescription": "Images, video, speech and music from 90+ AI media models",
+        "longDescription": "One pay-as-you-go balance for 450+ AI models. Your agent can make images, video clips with sound, voiceovers and music for your project, and each model's price is shown before it runs.",
+        "developerName": "GenMagic",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "websiteURL": "https://genmagic.co",
+        "privacyPolicyURL": "https://genmagic.co/legal/privacy",
+        "termsOfServiceURL": "https://genmagic.co/legal/terms",
+        "defaultPrompt": ["Make a hero image for this project with GenMagic"],
+        "logo": "./assets/logo.svg"
+      }
+    }
+  }
+}

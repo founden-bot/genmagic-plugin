@@ -1,0 +1,12 @@
+{
+  "name": "genmagic-media",
+  "interface": { "displayName": "GenMagic" },
+  "plugins": [
+    {
+      "name": "genmagic",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    }
+  ]
+}

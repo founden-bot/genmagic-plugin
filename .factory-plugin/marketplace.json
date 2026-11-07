@@ -1,0 +1,14 @@
+{
+  "name": "genmagic-media",
+  "description": "GenMagic: images, video, speech and music from 90+ AI media models for your coding agent.",
+  "owner": {
+    "name": "GenMagic",
+    "email": "hello@genmagic.co"
+  },
+  "plugins": [
+    {
+      "name": "genmagic",
+      "source": "./"
+    }
+  ]
+}
